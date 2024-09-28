@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.ant-menu-light{
+  background-color: rgb(107, 181, 176) !important;
+}
+.ant-layout-sider-trigger{
+  background-color: rgb(107, 181, 176) !important;
+}
+.ant-table-thead .ant-table-cell {
+  background-color: rgb(107, 181, 176) !important;
+  color: #fff !important;
+}
+.ant-btn-default.ant-btn-outlined {
+  background-color: rgb(107, 181, 176) !important;
+  border-color: rgb(107, 181, 176) !important;
+  color:white !important
+}
+.ant-btn.yellowwarning{
+  background-color: #FFDB58 !important;
+  
+}
+.ant-btn.bluecolor{
+  background-color: rgb(70, 70, 254) !important;
+}

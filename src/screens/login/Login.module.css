@@ -1,0 +1,140 @@
+.divider{
+    min-height: 100vh;
+}
+.loginrightpart{
+    min-height: 100vh;
+    background-color: rgb(107, 181, 176);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  
+  .formSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    min-height: 100vh;
+  }
+  
+  .formContainer {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: #fff;
+ 
+
+  }
+  
+  .logo {
+    display: block;
+    margin: 0 auto 20px;
+    width: 150px;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .label {
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .inputFullWidth {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .extraOptions {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+  }
+  
+  .forgotPassword {
+    color: #1890ff;
+  }
+  
+  .loginButton {
+    background-color:rgb(107, 181, 176);
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .signup {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .signup a {
+    color: #1890ff;
+  }
+  .ant-menu-light{
+    background-color: rgb(107, 181, 176) !important;
+  }
+  .responsive-text {
+    font-size: 1rem; /* Default for larger screens */
+    word-wrap: break-word; /* Ensures long words wrap */
+    white-space: normal; /* Prevents text from overflowing */
+}
+
+@media only screen and (max-width: 600px) {
+    .responsive-text {
+        font-size: 0.85rem; /* Scale down font size on smaller screens */
+    }
+}
+
+/* Fix card content overflow */
+.responsive-card {
+    padding: 12px; /* Adjust padding for smaller screens */
+}
+
+@media only screen and (max-width: 600px) {
+    .responsive-card {
+        padding: 8px; /* Reduce padding further on smaller screens */
+    }
+}
+/* Styles for larger screens */
+.responsive-text {
+  font-size: 16px;
+}
+
+/* Styles for smaller screens */
+@media (max-width: 600px) {
+  .responsive-text {
+    font-size: 12px;
+    word-wrap: break-word; /* Prevent text overflow */
+  }
+
+  .responsive-card h6 {
+    font-size: 14px;
+  }
+
+  .responsive-card p {
+    font-size: 12px;
+  }
+
+  .responsive-card img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Optional: add padding or margin adjustments for better spacing */
+.responsive-card {
+  padding: 8px;
+}
+.ant-btn-default.ant-btn-outlined {
+  background-color: rgb(107, 181, 176) !important;
+  border-color: rgb(107, 181, 176) !important;
+  color:white !important
+}
+
